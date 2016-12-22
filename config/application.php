@@ -84,7 +84,13 @@ define( 'FORCE_SSL_ADMIN', true );
 /*
 Multisite Settings
 */
-define( 'WP_ALLOW_MULTISITE', true );
+define('WP_ALLOW_MULTISITE', true);
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true); // Set to false if using subdirectories
+define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE'));
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 define( 'NOBLOGREDIRECT', env('WP_HOME'));
 
 /**

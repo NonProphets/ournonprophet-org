@@ -54,7 +54,8 @@
         "wpackagist-plugin/jch-optimize": "^2.0",
         "wpackagist-plugin/jetpack": "^4.4",
         "wpackagist-plugin/broken-link-checker": "^1.11",
-        "wpackagist-plugin/wp-smushit": "^2.5"
+        "wpackagist-plugin/wp-smushit": "^2.5",
+        "humanmade/mercator": "dev-master"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.5.1",
