@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b4d02363cd70071862b7f21d6c58b762",
-    "content-hash": "7250db6c6d017c31775087ee3a2a1e4e",
+    "hash": "b65b218e71dc4ec166c13b65bd5992bc",
+    "content-hash": "7ca37fe2b3bc0138e16dcc470fbeeb5b",
     "packages": [
         {
             "name": "composer/installers",
@@ -106,6 +106,42 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "humanmade/mercator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Mercator.git",
+                "reference": "f46c9cf26768497e8f18f5186d1a68a399319fb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Mercator/zipball/f46c9cf26768497e8f18f5186d1a68a399319fb4",
+                "reference": "f46c9cf26768497e8f18f5186d1a68a399319fb4",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress multisite domain mapping for the modern era.",
+            "homepage": "https://github.com/humanmade/Mercator",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2016-11-18 16:13:40"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -545,7 +581,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.5.2.zip",
-                "reference": null,
+                "reference": "tags/2.5.2",
                 "shasum": null
             },
             "require": {
@@ -677,7 +713,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "humanmade/mercator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
