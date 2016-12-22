@@ -81,6 +81,12 @@ define( 'WP_CACHE', true );
 define( 'EMPTY_TRASH_DAYS', 15 );
 define( 'FORCE_SSL_ADMIN', true );
 
+/*
+Multisite Settings
+*/
+define( 'WP_ALLOW_MULTISITE', true );
+define( 'NOBLOGREDIRECT', env('WP_HOME'));
+
 /**
  * Bootstrap WordPress
  */
