@@ -2,6 +2,15 @@
 1.3.0 / 2017-03-01
 ==================
 
+  * Merging upstream changes from Hebrides
+  * Feat: Adding SiteOrigin Widget bundle to multisite installs
+  * Feat: Adding SiteOrigin Page Builder to multisite installs
+  * Fix: specify current version to fix composer errror
+  * Feat: Adding wp-encrypt to manage multisite ssl certificates
+  * Merging upstream changes from Hebrides
+  * Feat: Adding multisite settings to config
+  * Feat: Adding mercator plugin to manage domain mapping
+  * Feat: Adding multisite configurations
   * Swapping MonsterInsights for Google Analytics Dashboard
   * Updating wordpress-seo to 4.4
   * Updating updraftplus to 1.12.34
