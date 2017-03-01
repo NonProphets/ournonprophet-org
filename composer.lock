@@ -813,7 +813,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/mercator": 20
         "humanmade/mercator": 20,
         "wpackagist-plugin/wp-encrypt": 10
     },
