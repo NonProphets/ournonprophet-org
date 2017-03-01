@@ -2,6 +2,7 @@
 1.4.0.1 / 2017-03-01
 ==================
 
+  * Feature: Adding mu-plugins for multisite (mercator and wp-encrypt)
   * Fix: Missed a few mu-plugins
 
 1.4.0 / 2017-03-01
