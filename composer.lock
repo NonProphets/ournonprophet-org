@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ba23783894bc9f1f42a1d8f3a66d795",
+    "content-hash": "d1f136cb51914380379bef9f66fb9d3d",
     "packages": [
         {
             "name": "composer/installers",
@@ -440,7 +440,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip",
-                "reference": null,
+                "reference": "tags/1.0.14",
                 "shasum": null
             },
             "require": {
@@ -460,7 +460,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.4.zip",
-                "reference": null,
+                "reference": "tags/5.5.4",
                 "shasum": null
             },
             "require": {
@@ -480,7 +480,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jch-optimize.2.0.8.zip",
-                "reference": null,
+                "reference": "tags/2.0.8",
                 "shasum": null
             },
             "require": {
@@ -500,7 +500,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/postmatic-social-commenting.1.1.1.zip",
-                "reference": null,
+                "reference": "tags/1.1.1",
                 "shasum": null
             },
             "require": {
@@ -520,7 +520,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.2.15.zip",
-                "reference": null,
+                "reference": "tags/1.2.15",
                 "shasum": null
             },
             "require": {
@@ -540,7 +540,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.30.zip",
-                "reference": null,
+                "reference": "tags/1.12.30",
                 "shasum": null
             },
             "require": {
@@ -560,7 +560,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.1.zip",
-                "reference": null,
+                "reference": "tags/4.1",
                 "shasum": null
             },
             "require": {
@@ -568,6 +568,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-encrypt",
+            "version": "1.0.0-beta.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-encrypt/",
+                "reference": "tags/1.0.0-beta.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-encrypt.1.0.0-beta.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-encrypt/"
         },
         {
             "name": "wpackagist-plugin/wp-security-audit-log",
@@ -580,7 +600,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-security-audit-log.2.5.9.2.zip",
-                "reference": null,
+                "reference": "tags/2.5.9.2",
                 "shasum": null
             },
             "require": {
@@ -600,7 +620,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.5.3.zip",
-                "reference": null,
+                "reference": "tags/2.5.3",
                 "shasum": null
             },
             "require": {
@@ -753,7 +773,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/mercator": 20
+        "humanmade/mercator": 20,
+        "wpackagist-plugin/wp-encrypt": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
