@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a70e3de506b9448e2c19b45493c07821",
+    "content-hash": "3bafc39f8dad95e0e47eb7c573a533da",
     "packages": [
         {
             "name": "composer/installers",
@@ -520,7 +520,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.25.zip",
-                "reference": null,
+                "reference": "tags/2.4.25",
                 "shasum": null
             },
             "require": {
@@ -528,6 +528,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
+        },
+        {
+            "name": "wpackagist-plugin/so-widgets-bundle",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
+                "reference": "tags/1.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
             "name": "wpackagist-plugin/two-factor-authentication",

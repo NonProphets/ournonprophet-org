@@ -64,7 +64,8 @@
         "wpackagist-plugin/postmatic-social-commenting": "^1.1",
         "wpackagist-plugin/wp-spamshield": "1.9.9.8",
         "wpackagist-plugin/wp-encrypt": "^1.0.0-beta.7",
-        "wpackagist-plugin/siteorigin-panels": "^2.4"
+        "wpackagist-plugin/siteorigin-panels": "^2.4",
+        "wpackagist-plugin/so-widgets-bundle": "^1.8"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.5.1",
