@@ -1,4 +1,15 @@
 
+1.5.0 / 2017-03-02
+==================
+
+  * Adding dashboard widgets suite plugin
+  * Adding Better Notitications for WordPress
+
+1.4.0.2 / 2017-03-02
+==================
+
+  * Fix: removing auto-loading for now because it doesn't seem to work
+
 1.4.0.1 / 2017-03-01
 ==================
 
