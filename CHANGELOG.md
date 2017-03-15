@@ -1,4 +1,33 @@
 
+1.5.2 / 2017-03-15
+==================
+
+  * Updating wordpress, wp-security-audit-log, bnfw, wp-smushit, and php_codesnifer
+  * Fix: don't specify exact version for google analytics dashboard
+  * Feat: organize composer.json file
+  * Beautify composer.json
+  * Fix: Ignore files added by server or by hosting provider
+  * Fix: don't track error or mail logs
+  * Fix: manage all compsoer ignores in one place
+  * Feat: Ignore theme files, we will always install these from a separate repo using composer
+
+1.5.1 / 2017-03-04
+==================
+
+  * Upgrading updraftplus to 1.12.35
+  * Initial checkin of synch.sh script
+
+1.5.0 / 2017-03-02
+==================
+
+  * Adding dashboard widgets suite plugin
+  * Adding Better Notitications for WordPress
+
+1.4.0.2 / 2017-03-02
+==================
+
+  * Fix: removing auto-loading for now because it doesn't seem to work
+
 1.4.0.1 / 2017-03-01
 ==================
 
