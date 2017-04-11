@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0285108b336dace3e720ee0d75a464ba",
+    "content-hash": "e7c7211ed1ba5fdcaf271c11cb4b647b",
     "packages": [
         {
             "name": "composer/installers",
@@ -420,7 +420,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/all-in-one-event-calendar.2.5.18.zip",
-                "reference": null,
+                "reference": "tags/2.5.18",
                 "shasum": null
             },
             "require": {
@@ -588,6 +588,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jch-optimize/"
+        },
+        {
+            "name": "wpackagist-plugin/mailmunch",
+            "version": "3.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailmunch/",
+                "reference": "tags/3.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailmunch.3.0.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailmunch/"
         },
         {
             "name": "wpackagist-plugin/postmatic-social-commenting",
