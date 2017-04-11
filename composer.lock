@@ -600,7 +600,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.2.zip",
-                "reference": null,
+                "reference": "tags/1.8.2",
                 "shasum": null
             },
             "require": {
@@ -631,16 +631,16 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.12.35",
+            "version": "1.12.40",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.12.35"
+                "reference": "tags/1.12.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.35.zip",
-                "reference": "tags/1.12.35",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.40.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
