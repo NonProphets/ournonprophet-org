@@ -640,7 +640,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.40.zip",
-                "reference": null,
+                "reference": "tags/1.12.40",
                 "shasum": null
             },
             "require": {
@@ -651,16 +651,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.4",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.4"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
-                "reference": "tags/4.4",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
