@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e5b1e9e3ae1ff75397afbe3105b1f7e",
+    "content-hash": "343ebd0dfca23370c77db19421fad55e",
     "packages": [
         {
             "name": "composer/installers",
@@ -620,7 +620,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/pods.2.6.8.zip",
-                "reference": null,
+                "reference": "tags/2.6.8",
                 "shasum": null
             },
             "require": {
@@ -648,6 +648,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/postmatic-social-commenting/"
+        },
+        {
+            "name": "wpackagist-plugin/seriously-simple-podcasting",
+            "version": "1.15.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seriously-simple-podcasting/",
+                "reference": "tags/1.15.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seriously-simple-podcasting.1.15.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seriously-simple-podcasting/"
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
