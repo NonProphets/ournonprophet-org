@@ -67,6 +67,7 @@
     "wpackagist-plugin/siteorigin-panels": "^2.4",
     "humanmade/mercator": "dev-master",
     "wpackagist-plugin/wp-encrypt": "^1.0.0-beta.7",
+    "wpackagist-plugin/all-in-one-event-calendar": "^2.5",  
     "wpackagist-plugin/charitable": "^1.4"
   },
   "require-dev": {

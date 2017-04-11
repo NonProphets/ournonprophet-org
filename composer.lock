@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6d7907d6efa33678e3b1eb8a964d274",
+    "content-hash": "0285108b336dace3e720ee0d75a464ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -410,6 +410,26 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-event-calendar",
+            "version": "2.5.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-event-calendar/",
+                "reference": "tags/2.5.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-event-calendar.2.5.18.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-event-calendar/"
+        },
+        {
             "name": "wpackagist-plugin/bnfw",
             "version": "1.6.3",
             "source": {
@@ -460,7 +480,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/charitable.1.4.13.zip",
-                "reference": null,
+                "reference": "tags/1.4.13",
                 "shasum": null
             },
             "require": {
