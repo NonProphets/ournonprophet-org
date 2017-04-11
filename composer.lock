@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7c7211ed1ba5fdcaf271c11cb4b647b",
+    "content-hash": "0e5b1e9e3ae1ff75397afbe3105b1f7e",
     "packages": [
         {
             "name": "composer/installers",
@@ -600,7 +600,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/mailmunch.3.0.6.zip",
-                "reference": null,
+                "reference": "tags/3.0.6",
                 "shasum": null
             },
             "require": {
@@ -608,6 +608,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mailmunch/"
+        },
+        {
+            "name": "wpackagist-plugin/pods",
+            "version": "2.6.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pods/",
+                "reference": "tags/2.6.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pods.2.6.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pods/"
         },
         {
             "name": "wpackagist-plugin/postmatic-social-commenting",
