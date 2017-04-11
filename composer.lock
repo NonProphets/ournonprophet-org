@@ -420,7 +420,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bnfw.1.6.3.zip",
-                "reference": null,
+                "reference": "tags/1.6.3",
                 "shasum": null
             },
             "require": {
@@ -460,7 +460,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/dashboard-widgets-suite.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -491,7 +491,7 @@
         },
         {
             "name": "wpackagist-plugin/goodbye-captcha",
-            "version": "3.1.4",
+            "version": "3.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/goodbye-captcha/",
@@ -499,8 +499,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/goodbye-captcha.zip",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/goodbye-captcha.zip?timestamp=1490850632",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -520,7 +520,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
-                "reference": null,
+                "reference": "tags/4.9.6.2",
                 "shasum": null
             },
             "require": {
@@ -600,7 +600,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.1.zip",
-                "reference": null,
+                "reference": "tags/1.8.1",
                 "shasum": null
             },
             "require": {
@@ -640,7 +640,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.35.zip",
-                "reference": null,
+                "reference": "tags/1.12.35",
                 "shasum": null
             },
             "require": {
@@ -700,7 +700,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-security-audit-log.2.6.1.zip",
-                "reference": null,
+                "reference": "tags/2.6.1",
                 "shasum": null
             },
             "require": {
@@ -720,7 +720,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.6.1.zip",
-                "reference": null,
+                "reference": "tags/2.6.1",
                 "shasum": null
             },
             "require": {
