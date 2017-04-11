@@ -500,7 +500,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/goodbye-captcha.zip?timestamp=1490850632",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -591,16 +591,16 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.8.1"
+                "reference": "tags/1.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.1.zip",
-                "reference": "tags/1.8.1",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
