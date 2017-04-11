@@ -66,7 +66,8 @@
     "wpackagist-plugin/so-widgets-bundle": "^1.8",
     "wpackagist-plugin/siteorigin-panels": "^2.4",
     "humanmade/mercator": "dev-master",
-    "wpackagist-plugin/wp-encrypt": "^1.0.0-beta.7"
+    "wpackagist-plugin/wp-encrypt": "^1.0.0-beta.7",
+    "wpackagist-plugin/charitable": "^1.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",

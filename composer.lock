@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa29e58555eff90bc595af5a8bebc67b",
+    "content-hash": "c6d7907d6efa33678e3b1eb8a964d274",
     "packages": [
         {
             "name": "composer/installers",
@@ -140,7 +140,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-11-18 16:13:40"
+            "time": "2016-11-18T16:13:40+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -450,6 +450,26 @@
             "homepage": "https://wordpress.org/plugins/broken-link-checker/"
         },
         {
+            "name": "wpackagist-plugin/charitable",
+            "version": "1.4.13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/charitable/",
+                "reference": "tags/1.4.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/charitable.1.4.13.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/charitable/"
+        },
+        {
             "name": "wpackagist-plugin/dashboard-widgets-suite",
             "version": "1.3",
             "source": {
@@ -720,7 +740,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.6.2.zip",
-                "reference": null,
+                "reference": "tags/2.6.2",
                 "shasum": null
             },
             "require": {
