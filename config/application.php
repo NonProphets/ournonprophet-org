@@ -44,6 +44,7 @@ define('WP_SITEURL', env('WP_SITEURL'));
 define('CONTENT_DIR', '/app');
 define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
+define('WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-plugins' );
 
 /**
  * DB settings
@@ -89,6 +90,7 @@ define( 'WP_MEMORY_LIMIT', '128M' );
 define( 'WP_MAX_MEMORY_LIMIT', '256M' );
 define( 'EMPTY_TRASH_DAYS', 15 );
 define( 'FORCE_SSL_ADMIN', true );
+define( 'SUNRISE', true);
 
 /*
 Multisite Settings

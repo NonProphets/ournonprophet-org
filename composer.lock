@@ -420,7 +420,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bnfw.1.6.3.zip",
-                "reference": null,
+                "reference": "tags/1.6.3",
                 "shasum": null
             },
             "require": {
@@ -460,7 +460,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/dashboard-widgets-suite.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -491,7 +491,7 @@
         },
         {
             "name": "wpackagist-plugin/goodbye-captcha",
-            "version": "3.1.4",
+            "version": "3.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/goodbye-captcha/",
@@ -499,7 +499,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/goodbye-captcha.zip",
+                "url": "https://downloads.wordpress.org/plugin/goodbye-captcha.zip?timestamp=1490850632",
                 "reference": "trunk",
                 "shasum": null
             },
@@ -520,7 +520,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
-                "reference": null,
+                "reference": "tags/4.9.6.2",
                 "shasum": null
             },
             "require": {
@@ -591,16 +591,16 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.8.1"
+                "reference": "tags/1.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.1.zip",
-                "reference": null,
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.8.2.zip",
+                "reference": "tags/1.8.2",
                 "shasum": null
             },
             "require": {
@@ -631,16 +631,16 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.12.35",
+            "version": "1.12.40",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.12.35"
+                "reference": "tags/1.12.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.35.zip",
-                "reference": null,
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.40.zip",
+                "reference": "tags/1.12.40",
                 "shasum": null
             },
             "require": {
@@ -651,16 +651,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.4",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.4"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
-                "reference": "tags/4.4",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.6.zip",
+                "reference": "tags/4.6",
                 "shasum": null
             },
             "require": {
@@ -700,7 +700,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-security-audit-log.2.6.1.zip",
-                "reference": null,
+                "reference": "tags/2.6.1",
                 "shasum": null
             },
             "require": {
@@ -711,15 +711,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-smushit",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/2.6.1"
+                "reference": "tags/2.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
