@@ -150,10 +150,17 @@
                 "url": "https://github.com/humanmade/S3-Uploads.git",
                 "reference": "9cb765284e7407d7ad2309a64dd8e5e13db258b2"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/9cb765284e7407d7ad2309a64dd8e5e13db258b2",
+                "reference": "9cb765284e7407d7ad2309a64dd8e5e13db258b2",
+                "shasum": ""
+            },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -169,10 +176,6 @@
             "keywords": [
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/humanmade/s3-uploads/issues",
-                "source": "https://github.com/humanmade/s3-uploads"
-            },
             "time": "2016-04-29T10:00:39+00:00"
         },
         {
@@ -840,7 +843,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wpupper-share-buttons.3.33.zip",
-                "reference": null,
+                "reference": "tags/3.33",
                 "shasum": null
             },
             "require": {
