@@ -102,7 +102,7 @@ define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE'));
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
-define( 'NOBLOGREDIRECT', env('WP_HOME'));
+// define( 'NOBLOGREDIRECT', env('WP_HOME')); // Uncomment this after deployment to prevent 404s
 
 /**
  * Bootstrap WordPress
