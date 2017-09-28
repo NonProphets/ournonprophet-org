@@ -80,6 +80,13 @@ define( 'S3_UPLOADS_HTTP_CACHE_CONTROL', 365 * 24 * 60 * 60 );
 define( 'S3_UPLOADS_BUCKET_URL', env('S3_UPLOADS_BUCKET_URL') );
 
 /**
+ * Mail From Settings
+ *
+ */
+define ( 'SET_MAIL_FROM_MAIL', env('SET_MAIL_FROM_MAIL') );
+define ( 'SET_MAIL_FROM_NAME', env('SET_MAIL_FROM_NAME') );
+
+/**
  * Custom Settings
  */
 define('AUTOMATIC_UPDATER_DISABLED', true);
