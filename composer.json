@@ -73,7 +73,8 @@
     "wpackagist-plugin/pods": "^2.6",
     "wpackagist-plugin/seriously-simple-podcasting": "^1.15",
     "wpackagist-plugin/wpupper-share-buttons": "^3.33",
-    "wpackagist-plugin/sparkpost": "^3.0"
+    "wpackagist-plugin/sparkpost": "^3.0",
+    "wpackagist-theme/twentyeleven": "^2.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",
